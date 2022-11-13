@@ -1,0 +1,23 @@
+.container {
+  background-color: azure;
+  width: 90vw;
+  padding: 3%;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 45vw;
+    margin-top: 20%;
+  }
+}
